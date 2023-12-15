@@ -1,4 +1,22 @@
 {
+  "master": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-angularamplifyhorsem-master-220744-authRole",
+      "UnauthRoleArn": "arn:aws:iam::149564274238:role/amplify-angularamplifyhorsem-master-220744-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::149564274238:role/amplify-angularamplifyhorsem-master-220744-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-angularamplifyhorsem-master-220744-deployment",
+      "UnauthRoleName": "amplify-angularamplifyhorsem-master-220744-unauthRole",
+      "StackName": "amplify-angularamplifyhorsem-master-220744",
+      "StackId": "arn:aws:cloudformation:us-east-1:149564274238:stack/amplify-angularamplifyhorsem-master-220744/5fa48040-9b96-11ee-ab53-0e08224a22f7",
+      "AmplifyAppId": "d2llrmyp5i711l"
+    },
+    "categories": {
+      "auth": {
+        "angularamplifyhorsemdeabae10": {}
+      }
+    }
+  },
   "dev": {
     "awscloudformation": {
       "AuthRoleName": "amplify-angularamplifyhorsem-dev-125456-authRole",
