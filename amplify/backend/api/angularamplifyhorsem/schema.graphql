@@ -24,4 +24,3 @@ type Comment @model {
   post: Post @belongsTo
   content: String!
 }
-_c1f1fe270978c3f80db437e677536f18.tenhorsemen.com.
