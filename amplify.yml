@@ -14,7 +14,7 @@ frontend:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: dist/angular-amplify-horsemen
+    baseDirectory: dist/angular-amplify-horsemen/browser
     files:
       - '**/*'
   cache:
