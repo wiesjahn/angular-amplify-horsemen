@@ -1,9 +1,17 @@
 <div style="margin: 25px">
   <h1>Create Post</h1>
-  <mat-form-field class="full-width">
-    <mat-label>Title</mat-label>
-    <input matInput (change)="onUpdateTitle($event)" />
-  </mat-form-field>
+  <div>
+    <label class="input-title">Post Title</label>
+    <input class="full-width input" matInput (change)="onUpdateTitle($event)" />
+  </div>
+  <div>
+    <label class="input-title">Deck</label>
+    <input class="full-width input" matInput (change)="onUpdateDeck($event)" />
+  </div>
+  <div>
+    <label class="input-title">Main Image URL</label>
+    <input class="full-width input" matInput (change)="onUpdateImageUrl($event)" />
+  </div>
   <editor apiKey="sspdjpecte925lcf3rt5ubbotd9055tsppbflbfw2vfqlyqe" [init]="{
     plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount',
     toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat',

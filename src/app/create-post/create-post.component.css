@@ -1,3 +1,14 @@
 .full-width {
   width: 100%;
 }
+.input {
+  height: 60px;
+  font-size: 20px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+
+.input-title {
+  margin-bottom: 10px;
+  font-size: 18pt;
+}

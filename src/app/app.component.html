@@ -1,8 +1,15 @@
 <mat-toolbar>
   <h1>The Ten Horsemen</h1>
   <span class="menu-spacer"></span>
-  <button style="margin-right: 10px;" class="button" (click)="getCurrentSession()">Get Session</button>
   <ng-container *ngIf="isLoggedIn">
+  <button [routerLink]="['/home']" mat-icon-button class="icon-btn home-icon"
+    aria-label="Example icon-button with Home icon">
+    <mat-icon>home</mat-icon>
+  </button>
+  <button [routerLink]="['/create']" mat-icon-button class="icon-btn create-icon"
+    aria-label="Example icon-button with Pencil icon">
+    <mat-icon>create</mat-icon>
+  </button>
     <a class="button" (click)="handleSignOut()">Logout</a>
   </ng-container>
   <ng-container *ngIf="!isLoggedIn">

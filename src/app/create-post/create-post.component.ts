@@ -13,8 +13,20 @@ export class CreatePostComponent {
   public title: string = '';
   public post: string = '';
 
+  public deck: string = '';
+
+  public imageUrl: string = '';
+
   public onUpdateTitle(event: any) {
     this.title = event.target.value;
+  }
+
+  public onUpdateDeck(event: any) {
+    this.deck = event.target.value;
+  }
+
+  public onUpdateImageUrl(event: any) {
+    this.imageUrl = event.target.value;
   }
 
   public onUpdatePost(event: any) {

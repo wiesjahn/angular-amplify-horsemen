@@ -6,6 +6,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { AmplifyAuthenticatorModule } from '@aws-amplify/ui-angular';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
+import { MatIconModule } from '@angular/material/icon';
 import { fetchAuthSession, signOut } from 'aws-amplify/auth';
 
 @Component({
@@ -15,6 +16,7 @@ import { fetchAuthSession, signOut } from 'aws-amplify/auth';
     CommonModule,
     MatToolbarModule,
     MatButtonModule,
+    MatIconModule,
     AmplifyAuthenticatorModule,
     RouterLink,
     RouterLinkActive,
